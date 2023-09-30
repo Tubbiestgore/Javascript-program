@@ -29,6 +29,26 @@ This is for general Syntax
 * [W3 Schools Online](https://www.w3schools.com/js/js_syntax.asp)
 This is for commenting, style etc...
 * [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-javascript)
+* [Javascript Syntax](https://www.youtube.com/watch?v=KXxXr0RxGDE)
+
+### Variable Declarations
+
+A point of interst in the Syntax of Javascript would be the variables names. There are several, and in the scope of this project I will be working with them. In brief here is what they do, and mean. 
+
+1. Var
+Variables declared with var are function-scoped, meaning they are only accessible within the function in which they are declared or globally if declared outside of any function. They can be redeclared within the same scope without generating an error.
+
+2. let
+Was introduced in ES6. Variables declared with let are accessible only within the block (enclosed by curly braces) in which they are defined. Unlike Var, variables declared with let can't be redeclared in the same scope.
+
+3. const
+Was also introduced in ES6. Variables declared with const are constant and cannot be reassigned after their initial assignment. The also cannot be redeclared.
+
+4. async
+As in other languages, this is meant to be utilized in the context of asynchronus operations. The term 'await' is used within the function in order to wait until a promise is fullfilled. More on promises below.
+
+Here is a link to a video demonstration:
+* [Variables](https://www.youtube.com/watch?v=plOo5hNVQJU)
 
 ### Unique Features
 
@@ -69,11 +89,22 @@ In JavaScript, native array functions are, in essence, a set of built-in methods
 4. 'includes()': Checks if an array contains a specific element and returns true or false.
 5. 'findIndex()': Returns the index of the first element in the array that satisfies a provided testing function.
 
-These native array functions in ES6 make it easier to work with arrays, simplify code, and improve code readability by providing more expressive ways to perform common operations on arrays.
+These native array functions in ES6 make it easier to work with arrays, simplify code, and improve code readability by providing more expressive ways to perform common operations on arrays. Here is an example:
+
+```JS
+const numbers = [1, 2, 3, 4, 5];
+
+// Use the map function to double each number in the array
+const doubledNumbers = numbers.map((num) => num * 2);
+
+console.log(doubledNumbers); 
+
+// Output: [2, 4, 6, 8, 10]
+```
 Below is more reading on this particular subject:
 
-*[Information on Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-*[Most common functions](https://everyday.codes/javascript/8-most-used-array-operations-in-javascript-es6/)
+* [Information on Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [Most common functions](https://everyday.codes/javascript/8-most-used-array-operations-in-javascript-es6/)
 
 ### The NPM
 
@@ -99,5 +130,4 @@ This is a shorthand for handling promise rejections. It is used to specify what 
 
 Below is documentation related to Promises
 
-*[The Promise](https://www.w3schools.com/Js/js_promise.asp)
-
+* [The Promise](https://www.w3schools.com/Js/js_promise.asp)

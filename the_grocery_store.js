@@ -16,13 +16,14 @@ var line = [
   function serveNextPerson(line) 
   {
     // Base case: If the line is empty, we're done
-    if (line.length === 0) {
+    if (line.length === 0) 
+    {
       console.log("No more customers in line. The line is empty.");
       return;
     }
   
     // Get the first person in line
-    var person = line.shift();
+    const person = line.shift();
     console.log(`Now serving ${person.name}`);
   
     // Calls the groceries function to processe this persons groceries.
@@ -36,7 +37,8 @@ var line = [
   function groceries(person) 
   {
     console.log(`Processing groceries for ${person.name}:`);
-    for (const item of person.groceries) {
+    for (const item of person.groceries) 
+    {
       console.log(`- ${item}`);
     }
     console.log(`${person.name}'s groceries have been processed.`);
