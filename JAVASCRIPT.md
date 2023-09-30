@@ -2,7 +2,7 @@
 
 JavaScript, often abbreviated as JS, is a versatile and widely-used programming language that has become a cornerstone of modern web development. Known for its unique characteristics and widespread adoption, JavaScript plays a pivotal role in creating interactive and dynamic web applications. Here I hope to clarify certain unique aspects of the language and how you can get started with your own projects! 
 
-## Node.js
+### Node.js
 
 In essence, Node.js is a runtime environment for executing JavaScript outside of web browsers. Yes, Javascript can be executed directly in web browsers, however for this particular projecct, I decided to use Node.Js. However, the benefit to coding in Javascript outside of a web browser is that it extends Javascripts capabilities. It allows for file I/O, network communication, and much more. Below I will provide a link to the Node.js download as well as a video tutorial for how to install it on Visual Studio Code. For purposes of this project, I will only be going into detail about this style of Javascript.
 
@@ -30,7 +30,7 @@ This is for general Syntax
 This is for commenting, style etc...
 * [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-write-comments-in-javascript)
 
-## Unique Features
+### Unique Features
 
 Here are some of the Unique features of this langauge, in short: 
 
@@ -59,7 +59,7 @@ There are many more such unique features, and in more details. I would suggest r
 * [Inteviewbit](https://www.interviewbit.com/blog/javascript-features/)
 * [Wikepedia](https://en.wikipedia.org/wiki/JavaScript)
 
-## Native Array ES6 Functions
+### Native Array ES6 Functions
 
 In JavaScript, native array functions are, in essence, a set of built-in methods that can be used to manipulate arrays. These functions provide a concise and efficient way to perform common operations on arrays, making array manipulation in JavaScript more convenient and readable. Below I will list a few, and in this particular repository, the file "" is an example of their use, set to a particular theme.
 
@@ -75,7 +75,29 @@ Below is more reading on this particular subject:
 *[Information on Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 *[Most common functions](https://everyday.codes/javascript/8-most-used-array-operations-in-javascript-es6/)
 
-## The NPM
+### The NPM
 
 An npm package for JavaScript is a collection of JavaScript code and associated files bundled together to provide a specific set of functionality or features that can be easily reused in different JavaScript projects. Npm stands for "Node Package Manager," and through this, developers can easily distribute and manage packages of code.
+
+* [Working with NPM's in Visual Studio Code](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
+
+### The Promise
+
+A promise is a fundamental JavaScript object that represents the eventual completion or failure of an asynchronous operation. Promises are used to handle asynchronous tasks such as fetching data from a server, reading files, or executing code that takes time to complete without blocking the main thread. It can be in one of 3 states.
+
+1. Pending: Initial State, asynchronus operation not completed.
+2. Fullfilled: Operation completed successfully
+3. Rejected: Error occured.
+
+They have two primary methods:
+
+1. then(onFulfilled, onRejected): 
+Allows you to specify what should happen when the promise is fulfilled (successful) or rejected (failed). You can attach multiple .then handlers in a chain, creating a sequence of asynchronous operations.
+
+2. catch(onRejected): 
+This is a shorthand for handling promise rejections. It is used to specify what to do if the promise is rejected and is equivalent to .then(null, onRejected).
+
+Below is documentation related to Promises
+
+*[The Promise](https://www.w3schools.com/Js/js_promise.asp)
 

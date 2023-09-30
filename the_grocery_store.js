@@ -32,7 +32,6 @@ var line = [
     serveNextPerson(line);
   }
   
-
   // Seperate function to process the groceries of a person
   function groceries(person) 
   {
