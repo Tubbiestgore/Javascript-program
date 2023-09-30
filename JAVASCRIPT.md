@@ -74,3 +74,8 @@ Below is more reading on this particular subject:
 
 *[Information on Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 *[Most common functions](https://everyday.codes/javascript/8-most-used-array-operations-in-javascript-es6/)
+
+## The NPM
+
+An npm package for JavaScript is a collection of JavaScript code and associated files bundled together to provide a specific set of functionality or features that can be easily reused in different JavaScript projects. Npm stands for "Node Package Manager," and through this, developers can easily distribute and manage packages of code.
+

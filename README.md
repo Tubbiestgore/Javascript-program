@@ -20,7 +20,7 @@
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
+- [NPM Currency Converter Download](https://www.npmjs.com/package/currency-converter-lt)
 - [Web Site Name](http://url.link.goes.here)
 
 # Future Work
