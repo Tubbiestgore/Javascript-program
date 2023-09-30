@@ -49,10 +49,13 @@ const findCriminal = (userInput) => {
         );
     });
 
-    return criminal ? criminal.name : "No match found. This person is not on the wanted list.";
+    return criminal.name
 };
 
 // Call the function to find the criminal based on user input
 const criminalMatch = findCriminal(userInput);
 
 console.log(`The criminal is: ${criminalMatch}`);
+
+// Output:
+// The criminal is: One Eyed Willy
