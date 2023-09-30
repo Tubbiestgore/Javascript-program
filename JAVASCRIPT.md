@@ -69,6 +69,7 @@ In JavaScript, native array functions are, in essence, a set of built-in methods
 4. 'includes()': Checks if an array contains a specific element and returns true or false.
 5. 'findIndex()': Returns the index of the first element in the array that satisfies a provided testing function.
 
+These native array functions in ES6 make it easier to work with arrays, simplify code, and improve code readability by providing more expressive ways to perform common operations on arrays.
 Below is more reading on this particular subject:
 
 *[Information on Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
