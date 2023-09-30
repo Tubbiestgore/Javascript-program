@@ -4,7 +4,7 @@
 
 // Defines an array of people waiting in line at the grocery store, with all of their grocieries.
 // We'll work more with arrays in another file.
-var line = [
+const line = [
     { name: "Hannah", groceries: ["Apples", "Bananas", "Bread"] },
     { name: "Peter", groceries: ["Milk", "Eggs", "Cheese"] },
     { name: "Luke", groceries: ["Cereal", "Juice", "Yogurt"] },

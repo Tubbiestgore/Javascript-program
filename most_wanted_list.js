@@ -28,7 +28,7 @@ var wantedList = [
 // Instead of prompting the user for input, we will simply take in the variables for this example
 // We will take in all the information that we can in order to determine who the criminal in this case is.
 
-var userInput = {
+const userInput = {
     height: 170,
     weight: 180,
     hairColor: "Black",
