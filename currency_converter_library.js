@@ -1,17 +1,19 @@
 // This library will not support multiple currencies in a single request so I had to go through
-// a differnt route.
+// a differnt route. This doesn't require any API calls.
 
 // To find variables for currencies follow this link
 // https://www.npmjs.com/package/currency-converter-lt?activeTab=code
 
 // Currency Converter Instantiation JSON object
+// Also installed prompt NPM which will allow for user input.
 const CC = require('currency-converter-lt')
+const prompt = require("prompt-sync")({ sigint: true });
 
 // Amount of money.
-var amountMoney = 5000;
+const amountMoney = prompt("How much money do you wish to convert? ");
 
 // Define an array of target currencies
-var currencyVar = ["EUR", "JPY", "GBP", "RUB", "MXN"];
+const currencyVar = ["EUR", "JPY", "GBP", "RUB", "MXN"];
 
 // Function to perform a single currency conversion
 function convertCurrency(fromCurrency, toCurrency) {
