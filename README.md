@@ -12,7 +12,7 @@ videos I found useful while in pursuit of that goal. Through this I hoped to inc
 
 My purpose as stated above, was to further my undrestanding of the fundamentals of Javascript, as well as some advanced concpets as captured in these several programs and documentation.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/nWEhazmtMJk)
 
 # Development Environment
 
@@ -42,8 +42,6 @@ For the main project I used this API in order to get the current exchange data.
 # Future Work
 
 A short list of things that I can do in the future, when I come back to this project.
-
-- Make it so that the currency converter can do more than just Euro's and USD.
 - Learn more about .Html as well as .css.
 - I could perhaps make a more funcitonal webpage with better design.
 - Go into more depth with API's
