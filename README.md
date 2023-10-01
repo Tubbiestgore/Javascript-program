@@ -21,6 +21,9 @@ I used Visual Studio Code with a link below to install Node.js thereon. I also u
 The progarmming language that I used was Javascript. Javascript is particularly utilize in the Web Devlopment arena, and considered to be a versatile and dynamic language. The Library that I used was a currency converter, which can be found here:
 * [Currency Converter](https://www.npmjs.com/package/currency-converter-lt?activeTab=readme)
 
+For the main project I used this API in order to get the current exchange data.
+* [ExchangeRateAPI](https://www.exchangerate-api.com/)
+
 # Useful Websites
 
 * [NPM Currency Converter Download](https://www.npmjs.com/package/currency-converter-lt)
@@ -38,8 +41,9 @@ The progarmming language that I used was Javascript. Javascript is particularly 
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
+A short list of things that I can do in the future, when I come back to this project.
 
-- Item 1
-- Item 2
-- Item 3
+- Make it so that the currency converter can do more than just Euro's and USD.
+- Learn more about .Html as well as .css.
+- I could perhaps make a more funcitonal webpage with better design.
+- Go into more depth with API's
